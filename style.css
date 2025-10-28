@@ -1,0 +1,105 @@
+/* === GLOBALNE === */
+body{
+  margin:0;
+  background:#05040a;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#ffe9fb;
+}
+
+/* === KARTA PROFILU === */
+.profile-box{
+  width:580px;
+  max-width:100%;
+  margin:70px auto;
+  background:#0c0a18;
+  border-radius:22px;
+  padding:100px 20px 20px;
+  box-shadow:0 0 26px rgba(255,47,141,.4);
+  position:relative;
+}
+
+/* === BANER === */
+.banner{
+  width:100%;
+  height:240px;
+  border-radius:22px;
+  position:absolute;
+  top:0;
+  left:0;
+  background:
+    radial-gradient(circle at 60% 10%, rgba(255,47,141,.36), transparent 60%),
+    radial-gradient(circle at 20% 70%, rgba(154,96,255,.36), transparent 65%),
+    linear-gradient(#1b1034, #0b0a17);
+  box-shadow:0 0 25px rgba(255,47,141,.5);
+  z-index:1;
+}
+
+/* === AVATAR === */
+.avatar{
+  width:120px !important;
+  height:120px !important;
+  border-radius:20px;
+  object-fit:cover;
+  border:4px solid #ff2f8d;
+  box-shadow:0 0 18px #ff2f8d;
+  position:absolute;
+  top:175px !important;
+  left:30px !important;
+  z-index:5 !important;
+}
+
+/* === TEKST === */
+.title{
+  font-size:30px;
+  font-weight:700;
+  margin-top:160px !important;
+  padding-left:140px !important;
+}
+.subtitle{
+  font-size:14px;
+  opacity:.8;
+  padding-left:140px !important;
+  margin-bottom:10px;
+}
+.about{
+  padding-left:180px !important;
+  margin-top:8px !important;
+  text-align:left !important;
+  line-height:1.5;
+}
+
+/* === MUZYKA === */
+.music{
+  background:#1d0c29;
+  border-radius:14px;
+  height:55px;
+  line-height:55px;
+  margin-top:10px !important;
+  text-align:center !important;
+}
+
+/* === BEST FRIENDS === */
+.section-title{
+  margin-top:25px;
+  margin-bottom:10px;
+  text-align:center !important;
+}
+.friends{
+  text-align:center !important;
+}
+.friend{
+  width:90px;
+  height:90px;
+  border-radius:20px;
+  background:#120e1f;
+  display:inline-block;
+  margin:6px;
+  object-fit:cover;
+  box-shadow:0 0 14px rgba(154,96,255,.45);
+}
+
+/* === GALERIA WYŁĄCZONA === */
+.gallery,
+.section-title:last-of-type{
+  display:none !important;
+}
